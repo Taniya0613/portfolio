@@ -82,7 +82,7 @@ function ProjectImageSlider({ images }) {
       nextSlide();
     }, 5000);
     return () => clearInterval(interval);
-  }, []);
+  }, [nextSlide]);
 
   return (
     <div className="project-image-slider">

@@ -1,21 +1,7 @@
-import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-
 export default function About() {
-  const [ref, inView] = useInView({
-    threshold: 0.1,
-    triggerOnce: true,
-  });
-
   return (
-    <section id="about" ref={ref} className="about-section">
-      <motion.div
-        initial={{ opacity: 0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-        viewport={{ once: true, amount: 0.2 }}
-        className="about-content"
-      >
+    <section id="about" className="about-section">
+      <div className="about-content">
         <h2>PROFILE</h2>
         <p>
           Motivated and detail-oriented <b>Full Stack Developer</b> with
@@ -25,7 +11,7 @@ export default function About() {
           backends, and RESTful APIs. Passionate about clean code, scalability,
           and solving real-world problems through technology.
         </p>
-      </motion.div>
+      </div>
     </section>
   );
 }

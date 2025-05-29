@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import ThreeDScene from "./ThreeDScene";
 import profileImage from "../assets/images/IMG_4406.JPG";
 
-export default function Hero({ theme }) {
+export default function Hero() {
   return (
     <section className="hero-section" id="home">
       <div className="hero-content">
@@ -77,7 +77,7 @@ export default function Hero({ theme }) {
       </div>
 
       <div className="canvas-container">
-        <ThreeDScene theme={theme} />
+        <ThreeDScene />
       </div>
     </section>
   );

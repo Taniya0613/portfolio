@@ -6,12 +6,11 @@ import {
   FaMapMarkerAlt,
   FaLinkedin,
   FaGithub,
-  FaGlobe,
 } from "react-icons/fa";
 import { useState } from "react";
 
 export default function Contact() {
-  const [ref, inView] = useInView({
+  const [ref] = useInView({
     threshold: 0.1,
     triggerOnce: true,
   });

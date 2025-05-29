@@ -57,11 +57,11 @@ function App() {
           >
             <Navbar theme={theme} toggleTheme={toggleTheme} />
             <Hero theme={theme} />
-            <About />
-            <Projects />
-            <Skills />
-            <Education />
-            <Contact />
+              <About />
+              <Projects />
+              <Skills />
+              <Education />
+              <Contact />
           </motion.main>
         )}
       </AnimatePresence>
