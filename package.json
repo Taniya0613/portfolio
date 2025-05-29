@@ -2,7 +2,7 @@
   "name": "taniya-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Taniya0613.github.io/taniya-portfolio",
+  "homepage": "https://Taniya0613.github.io/portfolio",
   "dependencies": {
     "@react-three/drei": "^10.0.5",
     "@react-three/fiber": "^9.1.1",

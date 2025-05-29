@@ -28,7 +28,7 @@ const projects = [
     id: "tomato",
     title: "Full Stack Food Ordering Website (Tomato)",
     role: "Full Stack Developer",
-    link: "#", // Add your repo or live link if available
+    link: "https://github.com/Taniya0613/food-delivery-app.git", // Add your repo or live link if available
     description: [
       "Built a full-stack food delivery platform with user auth, live order tracking, and role-based dashboards.",
       "Developed REST APIs for menu, cart, orders, and Stripe-integrated payments.",
