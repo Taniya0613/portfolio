@@ -393,6 +393,12 @@ h2 {
       padding: 10px 20px;
       border-radius: 20px;
       box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+      transition: background 0.3s ease, color 0.3s ease;
+
+      &:hover {
+        background: #e3f2fd;
+        color: $primary-color;
+      }
     }
   }
 }
